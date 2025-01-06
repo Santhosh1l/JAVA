@@ -14,7 +14,7 @@ int b=1;
                 int next=a+b;
                 a=b;
                 b=next;
-                System.out.println(a);
+                System.out.print(a+" ");
             }
         }
     }
