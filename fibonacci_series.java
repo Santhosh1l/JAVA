@@ -4,9 +4,18 @@ public class fibonacci_series {
         Scanner s = new Scanner(System.in);
         System.out.println("enter the number");
         int n = s.nextInt();
-
+int a=0;
+int b=1;
         if (n == 0) {
+            System.out.println(a);
         }
+        else{
+            for(int i=1;i<=n;i++){
+                int next=a+b;
+                a=b;
+                b=next;
+                System.out.println(a);
+            }
         }
     }
 }
